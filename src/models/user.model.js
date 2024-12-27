@@ -37,9 +37,6 @@ const userSchema = new Schema(
       type: String,
       required: true
     },
-    refreshToken: {
-      type: String
-    },
     phoneNumber: {
       type: String,
       required: true
