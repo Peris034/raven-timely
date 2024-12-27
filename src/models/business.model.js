@@ -17,6 +17,16 @@ const businessSchema = new Schema(
       required: true,
       trim: true
     },
+    firstName: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    lastName: {
+      type: String,
+      required: true,
+      trim: true
+    },
     category: {
       type: String,
       required: true,
@@ -37,16 +47,6 @@ const businessSchema = new Schema(
     },
     facebookPage: {
       type: String,
-    },
-    firstName: {
-      type: String,
-      required: true,
-      trim: true
-    },
-    lastName: {
-      type: String,
-      required: true,
-      trim: true
     }
   },
   {
